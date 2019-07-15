@@ -113,8 +113,11 @@ Please see th following screenshot:
 ## Show results
 
 Query:
+
 ![query](results/query.jpg)
+
 Results:
+
 ![28581814](results/28581814.jpg)
 
 ## Training From Scratch
