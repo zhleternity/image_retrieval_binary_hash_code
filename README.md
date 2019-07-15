@@ -108,11 +108,11 @@ When you run the above **Experiments** section,the model and prototxt path in **
 
 Please see th following screenshot:
 
-![GitHub Logo](demo/path.jpg)
+![path](demo/path.jpg)
 
 ## Show results
 
-![GitHub Logo](results/28581814.jpg)
+![28581814](results/28581814.jpg)
 
 ## Training From Scratch
 
