@@ -52,7 +52,7 @@ But also,you can train your own dataset and other datasets from scratch,and then
     ├── results #output results
     |── indexing.py #extract features,and build the index
     ├── retrieve.py #do the image retrieval
-    ├── get_image_path.py #get image path to txt,it may need do some change on the dataste path
+    ├── init_path.py #init caffe path and other config
     ├── README.md
     └── requirements.txt
     ```
@@ -108,7 +108,7 @@ When you run the above **Experiments** section,the model and prototxt path in **
 
 Please see th following screenshot:
 
-![GitHub Logo](path.jpg)
+![GitHub Logo](demo/path.jpg)
 
 ## Show results
 
@@ -123,16 +123,20 @@ Now,we begin to train the demo from scratch.And then you can test the retrieval 
 ```
 $ cd data/facescrub
 
+$ mkdir train && mkdir val
+
 $ python split_dataset.py
 ```
-After this op,you will see two directory:**train** && **val**
+Before this op,you will see your images is in **train** && **val**
 
 - Convert txt
 
 ```
+$ touch train.txt && touch val.txt
+
 $ python generate_txt.py
 ```
-This operation will yeild two txt profile:**train.txt** && **val.txt**
+This operation will yeild two non-empty txt profile:**train.txt** && **val.txt**
 
 - Convert data into LMDB or LevelDB
 
