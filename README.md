@@ -111,7 +111,6 @@ Please see th following screenshot:
 ![path](demo/path.jpg)
 
 ## Show results
-Query:
 
 ![query](results/query.jpg)
 
