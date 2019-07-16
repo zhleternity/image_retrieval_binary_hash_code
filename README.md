@@ -62,14 +62,21 @@ But also,you can train your own dataset and other datasets from scratch,and then
 For the foods25 dataset,it has already exists in this repo,so you need not downlowd.
 For the Webface dataset, you need download by yourself.
 Get the data and models required:
+
 - Download the data and uncompress in 'image_retrieval_binary_hash_code/data'
+
   * foods25: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPRExDYkNKTWF1bjQ)
+  
   * Webface: http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html
   
 - Download the models：
+
   For foods25,uncompress in 'image_retrieval_binary_hash_code/examples/'
+  
   * foods25: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPcC1kNXlRWmRWY2M)
+  
   For webface,download the model and put it in 'image_retrieval_binary_hash_code/examples/facescrub/'
+  
   * Webface: https://pan.baidu.com/s/1ecbDJgp48IvRBrU4RHTFKA Extract Code：p5l3 
 
   
