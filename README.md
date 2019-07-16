@@ -75,7 +75,7 @@ Get the data and models required:
   
   * foods25: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPcC1kNXlRWmRWY2M)
   
-  For webface,download the model and put it in 'image_retrieval_binary_hash_code/examples/facescrub/'
+  For webface,download the model and put it in 'image_retrieval_binary_hash_code/examples/facescrub/models/'
   
   * Webface: https://pan.baidu.com/s/1ecbDJgp48IvRBrU4RHTFKA Extract Code：p5l3 
 
