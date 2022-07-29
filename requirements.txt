@@ -36,7 +36,7 @@ leveldb==0.194
 lmdb==0.87
 MarkupSafe==0.23
 matplotlib==1.5.1
-mistune==0.7.3
+mistune==2.0.3
 mock==2.0.0
 nbconvert==4.2.0
 nbformat==4.1.0
