@@ -50,7 +50,7 @@ pathlib2==2.1.0
 pbr==2.0.0
 pexpect==4.2.1
 pickleshare==0.7.4
-Pillow==3.1.2
+Pillow==9.3.0
 progressbar==2.3
 prompt-toolkit==1.0.7
 protobuf==3.2.0
